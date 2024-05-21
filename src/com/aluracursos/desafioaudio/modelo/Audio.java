@@ -8,10 +8,11 @@ public class Audio {
     private int clasificacion;
 
     public void meGusta() {
-        meGusta ++;
+        this.meGusta ++;
     }
 
     public void reproducir() {
+        this.totalReproducciones ++;
     }
 
     public String getTitulo() {
