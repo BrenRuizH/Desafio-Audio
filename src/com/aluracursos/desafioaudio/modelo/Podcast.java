@@ -5,7 +5,7 @@ public class Podcast extends Audio{
     private String presentador;
     private String descripcion;
 
-    public String getPresentador() {git
+    public String getPresentador() {
         return presentador;
     }
 
